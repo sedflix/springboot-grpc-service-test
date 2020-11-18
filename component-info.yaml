@@ -1,0 +1,12 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: "springboot-gRPC-test"
+  description: "test"
+  annotations:
+    github.com/project-slug: "sedflix/springboot-grpc-service-test"
+    backstage.io/techdocs-ref: github:https://github.com/sedflix/springboot-grpc-service-test
+spec:
+  type: service
+  lifecycle: experimental
+  owner: "sedflix"
